@@ -1,458 +1,1249 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		992BDC4518A7159500E9A75C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992BDC4418A7159500E9A75C /* Foundation.framework */; };
-		992BDC4718A7159500E9A75C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992BDC4618A7159500E9A75C /* CoreGraphics.framework */; };
-		992BDC4918A7159500E9A75C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992BDC4818A7159500E9A75C /* UIKit.framework */; };
-		992BDC4F18A7159500E9A75C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 992BDC4D18A7159500E9A75C /* InfoPlist.strings */; };
-		992BDC5118A7159500E9A75C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 992BDC5018A7159500E9A75C /* main.m */; };
-		992BDC5518A7159500E9A75C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 992BDC5418A7159500E9A75C /* AppDelegate.m */; };
-		992BDC5718A7159500E9A75C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992BDC5618A7159500E9A75C /* Images.xcassets */; };
-		992BDC5E18A7159500E9A75C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992BDC5D18A7159500E9A75C /* XCTest.framework */; };
-		992BDC5F18A7159500E9A75C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992BDC4418A7159500E9A75C /* Foundation.framework */; };
-		992BDC6018A7159500E9A75C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992BDC4818A7159500E9A75C /* UIKit.framework */; };
-		992BDC6818A7159500E9A75C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 992BDC6618A7159500E9A75C /* InfoPlist.strings */; };
-		992BDC6A18A7159500E9A75C /* app_instatravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 992BDC6918A7159500E9A75C /* app_instatravelTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		992BDC6118A7159500E9A75C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 992BDC3918A7159400E9A75C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 992BDC4018A7159400E9A75C;
-			remoteInfo = "app-instatravel";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		992BDC4118A7159500E9A75C /* app-instatravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-instatravel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		992BDC4418A7159500E9A75C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		992BDC4618A7159500E9A75C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		992BDC4818A7159500E9A75C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		992BDC4C18A7159500E9A75C /* app-instatravel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "app-instatravel-Info.plist"; sourceTree = "<group>"; };
-		992BDC4E18A7159500E9A75C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		992BDC5018A7159500E9A75C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		992BDC5218A7159500E9A75C /* app-instatravel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "app-instatravel-Prefix.pch"; sourceTree = "<group>"; };
-		992BDC5318A7159500E9A75C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		992BDC5418A7159500E9A75C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		992BDC5618A7159500E9A75C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		992BDC5C18A7159500E9A75C /* app-instatravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app-instatravelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		992BDC5D18A7159500E9A75C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		992BDC6518A7159500E9A75C /* app-instatravelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "app-instatravelTests-Info.plist"; sourceTree = "<group>"; };
-		992BDC6718A7159500E9A75C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		992BDC6918A7159500E9A75C /* app_instatravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = app_instatravelTests.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		992BDC3E18A7159400E9A75C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				992BDC4718A7159500E9A75C /* CoreGraphics.framework in Frameworks */,
-				992BDC4918A7159500E9A75C /* UIKit.framework in Frameworks */,
-				992BDC4518A7159500E9A75C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		992BDC5918A7159500E9A75C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				992BDC5E18A7159500E9A75C /* XCTest.framework in Frameworks */,
-				992BDC6018A7159500E9A75C /* UIKit.framework in Frameworks */,
-				992BDC5F18A7159500E9A75C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		992BDC3818A7159400E9A75C = {
-			isa = PBXGroup;
-			children = (
-				992BDC4A18A7159500E9A75C /* app-instatravel */,
-				992BDC6318A7159500E9A75C /* app-instatravelTests */,
-				992BDC4318A7159500E9A75C /* Frameworks */,
-				992BDC4218A7159500E9A75C /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		992BDC4218A7159500E9A75C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				992BDC4118A7159500E9A75C /* app-instatravel.app */,
-				992BDC5C18A7159500E9A75C /* app-instatravelTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		992BDC4318A7159500E9A75C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				992BDC4418A7159500E9A75C /* Foundation.framework */,
-				992BDC4618A7159500E9A75C /* CoreGraphics.framework */,
-				992BDC4818A7159500E9A75C /* UIKit.framework */,
-				992BDC5D18A7159500E9A75C /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		992BDC4A18A7159500E9A75C /* app-instatravel */ = {
-			isa = PBXGroup;
-			children = (
-				992BDC5318A7159500E9A75C /* AppDelegate.h */,
-				992BDC5418A7159500E9A75C /* AppDelegate.m */,
-				992BDC5618A7159500E9A75C /* Images.xcassets */,
-				992BDC4B18A7159500E9A75C /* Supporting Files */,
-			);
-			path = "app-instatravel";
-			sourceTree = "<group>";
-		};
-		992BDC4B18A7159500E9A75C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				992BDC4C18A7159500E9A75C /* app-instatravel-Info.plist */,
-				992BDC4D18A7159500E9A75C /* InfoPlist.strings */,
-				992BDC5018A7159500E9A75C /* main.m */,
-				992BDC5218A7159500E9A75C /* app-instatravel-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		992BDC6318A7159500E9A75C /* app-instatravelTests */ = {
-			isa = PBXGroup;
-			children = (
-				992BDC6918A7159500E9A75C /* app_instatravelTests.m */,
-				992BDC6418A7159500E9A75C /* Supporting Files */,
-			);
-			path = "app-instatravelTests";
-			sourceTree = "<group>";
-		};
-		992BDC6418A7159500E9A75C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				992BDC6518A7159500E9A75C /* app-instatravelTests-Info.plist */,
-				992BDC6618A7159500E9A75C /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		992BDC4018A7159400E9A75C /* app-instatravel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 992BDC6D18A7159500E9A75C /* Build configuration list for PBXNativeTarget "app-instatravel" */;
-			buildPhases = (
-				992BDC3D18A7159400E9A75C /* Sources */,
-				992BDC3E18A7159400E9A75C /* Frameworks */,
-				992BDC3F18A7159400E9A75C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "app-instatravel";
-			productName = "app-instatravel";
-			productReference = 992BDC4118A7159500E9A75C /* app-instatravel.app */;
-			productType = "com.apple.product-type.application";
-		};
-		992BDC5B18A7159500E9A75C /* app-instatravelTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 992BDC7018A7159500E9A75C /* Build configuration list for PBXNativeTarget "app-instatravelTests" */;
-			buildPhases = (
-				992BDC5818A7159500E9A75C /* Sources */,
-				992BDC5918A7159500E9A75C /* Frameworks */,
-				992BDC5A18A7159500E9A75C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				992BDC6218A7159500E9A75C /* PBXTargetDependency */,
-			);
-			name = "app-instatravelTests";
-			productName = "app-instatravelTests";
-			productReference = 992BDC5C18A7159500E9A75C /* app-instatravelTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		992BDC3918A7159400E9A75C /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Vikram Jiandani";
-				TargetAttributes = {
-					992BDC5B18A7159500E9A75C = {
-						TestTargetID = 992BDC4018A7159400E9A75C;
-					};
-				};
-			};
-			buildConfigurationList = 992BDC3C18A7159400E9A75C /* Build configuration list for PBXProject "app-instatravel" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 992BDC3818A7159400E9A75C;
-			productRefGroup = 992BDC4218A7159500E9A75C /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				992BDC4018A7159400E9A75C /* app-instatravel */,
-				992BDC5B18A7159500E9A75C /* app-instatravelTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		992BDC3F18A7159400E9A75C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				992BDC4F18A7159500E9A75C /* InfoPlist.strings in Resources */,
-				992BDC5718A7159500E9A75C /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		992BDC5A18A7159500E9A75C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				992BDC6818A7159500E9A75C /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		992BDC3D18A7159400E9A75C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				992BDC5518A7159500E9A75C /* AppDelegate.m in Sources */,
-				992BDC5118A7159500E9A75C /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		992BDC5818A7159500E9A75C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				992BDC6A18A7159500E9A75C /* app_instatravelTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		992BDC6218A7159500E9A75C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 992BDC4018A7159400E9A75C /* app-instatravel */;
-			targetProxy = 992BDC6118A7159500E9A75C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		992BDC4D18A7159500E9A75C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				992BDC4E18A7159500E9A75C /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		992BDC6618A7159500E9A75C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				992BDC6718A7159500E9A75C /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		992BDC6B18A7159500E9A75C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		992BDC6C18A7159500E9A75C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		992BDC6E18A7159500E9A75C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "app-instatravel/app-instatravel-Prefix.pch";
-				INFOPLIST_FILE = "app-instatravel/app-instatravel-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		992BDC6F18A7159500E9A75C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "app-instatravel/app-instatravel-Prefix.pch";
-				INFOPLIST_FILE = "app-instatravel/app-instatravel-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		992BDC7118A7159500E9A75C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/app-instatravel.app/app-instatravel";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "app-instatravel/app-instatravel-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "app-instatravelTests/app-instatravelTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		992BDC7218A7159500E9A75C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/app-instatravel.app/app-instatravel";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "app-instatravel/app-instatravel-Prefix.pch";
-				INFOPLIST_FILE = "app-instatravelTests/app-instatravelTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		992BDC3C18A7159400E9A75C /* Build configuration list for PBXProject "app-instatravel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				992BDC6B18A7159500E9A75C /* Debug */,
-				992BDC6C18A7159500E9A75C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		992BDC6D18A7159500E9A75C /* Build configuration list for PBXNativeTarget "app-instatravel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				992BDC6E18A7159500E9A75C /* Debug */,
-				992BDC6F18A7159500E9A75C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		992BDC7018A7159500E9A75C /* Build configuration list for PBXNativeTarget "app-instatravelTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				992BDC7118A7159500E9A75C /* Debug */,
-				992BDC7218A7159500E9A75C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 992BDC3918A7159400E9A75C /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>09F1CE04CF714E0AA15C9316</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0E51878D29364AD995F71620</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>992BDC3818A7159400E9A75C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>992BDC4A18A7159500E9A75C</string>
+				<string>992BDC6318A7159500E9A75C</string>
+				<string>992BDC4318A7159500E9A75C</string>
+				<string>992BDC4218A7159500E9A75C</string>
+				<string>09F1CE04CF714E0AA15C9316</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC3918A7159400E9A75C</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0500</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Vikram Jiandani</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>992BDC5B18A7159500E9A75C</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>992BDC4018A7159400E9A75C</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>992BDC3C18A7159400E9A75C</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>992BDC3818A7159400E9A75C</string>
+			<key>productRefGroup</key>
+			<string>992BDC4218A7159500E9A75C</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>992BDC4018A7159400E9A75C</string>
+				<string>992BDC5B18A7159500E9A75C</string>
+			</array>
+		</dict>
+		<key>992BDC3C18A7159400E9A75C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>992BDC6B18A7159500E9A75C</string>
+				<string>992BDC6C18A7159500E9A75C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>992BDC3D18A7159400E9A75C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>992BDC8E18A7220700E9A75C</string>
+				<string>992BDC8718A71BC600E9A75C</string>
+				<string>992BDC9418A72B9400E9A75C</string>
+				<string>992BDC5518A7159500E9A75C</string>
+				<string>992BDC5118A7159500E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>992BDC3E18A7159400E9A75C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>992BDC4718A7159500E9A75C</string>
+				<string>992BDC4918A7159500E9A75C</string>
+				<string>992BDC4518A7159500E9A75C</string>
+				<string>D02B00C905FA4250884E0932</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>992BDC3F18A7159400E9A75C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>992BDC9618A72CCB00E9A75C</string>
+				<string>992BDC9118A7223100E9A75C</string>
+				<string>992BDC8818A71BC600E9A75C</string>
+				<string>992BDC4F18A7159500E9A75C</string>
+				<string>992BDC5718A7159500E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>992BDC4018A7159400E9A75C</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>992BDC6D18A7159500E9A75C</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C1DDCEA0F3194D14B45B5665</string>
+				<string>992BDC3D18A7159400E9A75C</string>
+				<string>992BDC3E18A7159400E9A75C</string>
+				<string>992BDC3F18A7159400E9A75C</string>
+				<string>B568DCB93DD446978030013B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>app-instatravel</string>
+			<key>productName</key>
+			<string>app-instatravel</string>
+			<key>productReference</key>
+			<string>992BDC4118A7159500E9A75C</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>992BDC4118A7159500E9A75C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>app-instatravel.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>992BDC4218A7159500E9A75C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>992BDC4118A7159500E9A75C</string>
+				<string>992BDC5C18A7159500E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC4318A7159500E9A75C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>992BDC4418A7159500E9A75C</string>
+				<string>992BDC4618A7159500E9A75C</string>
+				<string>992BDC4818A7159500E9A75C</string>
+				<string>992BDC5D18A7159500E9A75C</string>
+				<string>0E51878D29364AD995F71620</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC4418A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>992BDC4518A7159500E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC4418A7159500E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC4618A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>992BDC4718A7159500E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC4618A7159500E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC4818A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>992BDC4918A7159500E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC4818A7159500E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC4A18A7159500E9A75C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>992BDC7318A715F700E9A75C</string>
+				<string>992BDC9218A72B9400E9A75C</string>
+				<string>992BDC9318A72B9400E9A75C</string>
+				<string>992BDC5318A7159500E9A75C</string>
+				<string>992BDC5418A7159500E9A75C</string>
+				<string>992BDC5618A7159500E9A75C</string>
+				<string>992BDC4B18A7159500E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>app-instatravel</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC4B18A7159500E9A75C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>992BDC4C18A7159500E9A75C</string>
+				<string>992BDC5218A7159500E9A75C</string>
+				<string>992BDC4D18A7159500E9A75C</string>
+				<string>992BDC5018A7159500E9A75C</string>
+				<string>992BDC9518A72CCB00E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC4C18A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>app-instatravel-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC4D18A7159500E9A75C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>992BDC4E18A7159500E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC4E18A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC4F18A7159500E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC4D18A7159500E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC5018A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC5118A7159500E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC5018A7159500E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC5218A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>app-instatravel-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC5318A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC5418A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC5518A7159500E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC5418A7159500E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC5618A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC5718A7159500E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC5618A7159500E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC5818A7159500E9A75C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>992BDC6A18A7159500E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>992BDC5918A7159500E9A75C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>992BDC5E18A7159500E9A75C</string>
+				<string>992BDC6018A7159500E9A75C</string>
+				<string>992BDC5F18A7159500E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>992BDC5A18A7159500E9A75C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>992BDC6818A7159500E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>992BDC5B18A7159500E9A75C</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>992BDC7018A7159500E9A75C</string>
+			<key>buildPhases</key>
+			<array>
+				<string>992BDC5818A7159500E9A75C</string>
+				<string>992BDC5918A7159500E9A75C</string>
+				<string>992BDC5A18A7159500E9A75C</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>992BDC6218A7159500E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>app-instatravelTests</string>
+			<key>productName</key>
+			<string>app-instatravelTests</string>
+			<key>productReference</key>
+			<string>992BDC5C18A7159500E9A75C</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>992BDC5C18A7159500E9A75C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>app-instatravelTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>992BDC5D18A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>992BDC5E18A7159500E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC5D18A7159500E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC5F18A7159500E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC4418A7159500E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC6018A7159500E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC4818A7159500E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC6118A7159500E9A75C</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>992BDC3918A7159400E9A75C</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>992BDC4018A7159400E9A75C</string>
+			<key>remoteInfo</key>
+			<string>app-instatravel</string>
+		</dict>
+		<key>992BDC6218A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>992BDC4018A7159400E9A75C</string>
+			<key>targetProxy</key>
+			<string>992BDC6118A7159500E9A75C</string>
+		</dict>
+		<key>992BDC6318A7159500E9A75C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>992BDC6918A7159500E9A75C</string>
+				<string>992BDC6418A7159500E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>app-instatravelTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC6418A7159500E9A75C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>992BDC6518A7159500E9A75C</string>
+				<string>992BDC6618A7159500E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC6518A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>app-instatravelTests-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC6618A7159500E9A75C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>992BDC6718A7159500E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC6718A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC6818A7159500E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC6618A7159500E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC6918A7159500E9A75C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>app_instatravelTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC6A18A7159500E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC6918A7159500E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC6B18A7159500E9A75C</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>992BDC6C18A7159500E9A75C</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>992BDC6D18A7159500E9A75C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>992BDC6E18A7159500E9A75C</string>
+				<string>992BDC6F18A7159500E9A75C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>992BDC6E18A7159500E9A75C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>09F1CE04CF714E0AA15C9316</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>app-instatravel/app-instatravel-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>app-instatravel/app-instatravel-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>992BDC6F18A7159500E9A75C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>09F1CE04CF714E0AA15C9316</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>app-instatravel/app-instatravel-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>app-instatravel/app-instatravel-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>992BDC7018A7159500E9A75C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>992BDC7118A7159500E9A75C</string>
+				<string>992BDC7218A7159500E9A75C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>992BDC7118A7159500E9A75C</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/app-instatravel.app/app-instatravel</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>app-instatravel/app-instatravel-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>app-instatravelTests/app-instatravelTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>992BDC7218A7159500E9A75C</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/app-instatravel.app/app-instatravel</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>app-instatravel/app-instatravel-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>app-instatravelTests/app-instatravelTests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>992BDC7318A715F700E9A75C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>992BDC8F18A7221A00E9A75C</string>
+				<string>992BDC7518A7160F00E9A75C</string>
+				<string>992BDC7418A7160600E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>InstaTravel</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC7418A7160600E9A75C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>992BDC8418A71BC600E9A75C</string>
+				<string>992BDC8518A71BC600E9A75C</string>
+				<string>992BDC8618A71BC600E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ViewControllers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC7518A7160F00E9A75C</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Views</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC8418A71BC600E9A75C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ExploreViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC8518A71BC600E9A75C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ExploreViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC8618A71BC600E9A75C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>path</key>
+			<string>ExploreViewController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC8718A71BC600E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC8518A71BC600E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC8818A71BC600E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC8618A71BC600E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC8C18A7220700E9A75C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>GeoSiteCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC8D18A7220700E9A75C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>GeoSiteCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC8E18A7220700E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC8D18A7220700E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC8F18A7221A00E9A75C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>992BDC9018A7223100E9A75C</string>
+				<string>992BDC8C18A7220700E9A75C</string>
+				<string>992BDC8D18A7220700E9A75C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Cells</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC9018A7223100E9A75C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>path</key>
+			<string>GeoSiteCell.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC9118A7223100E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC9018A7223100E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC9218A72B9400E9A75C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ApiCalls.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC9318A72B9400E9A75C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ApiCalls.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC9418A72B9400E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC9318A72B9400E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>992BDC9518A72CCB00E9A75C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992BDC9618A72CCB00E9A75C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>992BDC9518A72CCB00E9A75C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B568DCB93DD446978030013B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>C1DDCEA0F3194D14B45B5665</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>D02B00C905FA4250884E0932</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0E51878D29364AD995F71620</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>992BDC3918A7159400E9A75C</string>
+</dict>
+</plist>
