@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		992BDC4518A7159500E9A75C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992BDC4418A7159500E9A75C /* Foundation.framework */; };
+		992BDC4718A7159500E9A75C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992BDC4618A7159500E9A75C /* CoreGraphics.framework */; };
+		992BDC4918A7159500E9A75C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992BDC4818A7159500E9A75C /* UIKit.framework */; };
+		992BDC4F18A7159500E9A75C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 992BDC4D18A7159500E9A75C /* InfoPlist.strings */; };
+		992BDC5118A7159500E9A75C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 992BDC5018A7159500E9A75C /* main.m */; };
+		992BDC5518A7159500E9A75C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 992BDC5418A7159500E9A75C /* AppDelegate.m */; };
+		992BDC5718A7159500E9A75C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992BDC5618A7159500E9A75C /* Images.xcassets */; };
+		992BDC5E18A7159500E9A75C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992BDC5D18A7159500E9A75C /* XCTest.framework */; };
+		992BDC5F18A7159500E9A75C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992BDC4418A7159500E9A75C /* Foundation.framework */; };
+		992BDC6018A7159500E9A75C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992BDC4818A7159500E9A75C /* UIKit.framework */; };
+		992BDC6818A7159500E9A75C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 992BDC6618A7159500E9A75C /* InfoPlist.strings */; };
+		992BDC6A18A7159500E9A75C /* app_instatravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 992BDC6918A7159500E9A75C /* app_instatravelTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		992BDC6118A7159500E9A75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992BDC3918A7159400E9A75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 992BDC4018A7159400E9A75C;
+			remoteInfo = "app-instatravel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		992BDC4118A7159500E9A75C /* app-instatravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-instatravel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		992BDC4418A7159500E9A75C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		992BDC4618A7159500E9A75C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		992BDC4818A7159500E9A75C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		992BDC4C18A7159500E9A75C /* app-instatravel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "app-instatravel-Info.plist"; sourceTree = "<group>"; };
+		992BDC4E18A7159500E9A75C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		992BDC5018A7159500E9A75C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		992BDC5218A7159500E9A75C /* app-instatravel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "app-instatravel-Prefix.pch"; sourceTree = "<group>"; };
+		992BDC5318A7159500E9A75C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		992BDC5418A7159500E9A75C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		992BDC5618A7159500E9A75C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		992BDC5C18A7159500E9A75C /* app-instatravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app-instatravelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		992BDC5D18A7159500E9A75C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		992BDC6518A7159500E9A75C /* app-instatravelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "app-instatravelTests-Info.plist"; sourceTree = "<group>"; };
+		992BDC6718A7159500E9A75C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		992BDC6918A7159500E9A75C /* app_instatravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = app_instatravelTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		992BDC3E18A7159400E9A75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992BDC4718A7159500E9A75C /* CoreGraphics.framework in Frameworks */,
+				992BDC4918A7159500E9A75C /* UIKit.framework in Frameworks */,
+				992BDC4518A7159500E9A75C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992BDC5918A7159500E9A75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992BDC5E18A7159500E9A75C /* XCTest.framework in Frameworks */,
+				992BDC6018A7159500E9A75C /* UIKit.framework in Frameworks */,
+				992BDC5F18A7159500E9A75C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		992BDC3818A7159400E9A75C = {
+			isa = PBXGroup;
+			children = (
+				992BDC4A18A7159500E9A75C /* app-instatravel */,
+				992BDC6318A7159500E9A75C /* app-instatravelTests */,
+				992BDC4318A7159500E9A75C /* Frameworks */,
+				992BDC4218A7159500E9A75C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		992BDC4218A7159500E9A75C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				992BDC4118A7159500E9A75C /* app-instatravel.app */,
+				992BDC5C18A7159500E9A75C /* app-instatravelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992BDC4318A7159500E9A75C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				992BDC4418A7159500E9A75C /* Foundation.framework */,
+				992BDC4618A7159500E9A75C /* CoreGraphics.framework */,
+				992BDC4818A7159500E9A75C /* UIKit.framework */,
+				992BDC5D18A7159500E9A75C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		992BDC4A18A7159500E9A75C /* app-instatravel */ = {
+			isa = PBXGroup;
+			children = (
+				992BDC5318A7159500E9A75C /* AppDelegate.h */,
+				992BDC5418A7159500E9A75C /* AppDelegate.m */,
+				992BDC5618A7159500E9A75C /* Images.xcassets */,
+				992BDC4B18A7159500E9A75C /* Supporting Files */,
+			);
+			path = "app-instatravel";
+			sourceTree = "<group>";
+		};
+		992BDC4B18A7159500E9A75C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				992BDC4C18A7159500E9A75C /* app-instatravel-Info.plist */,
+				992BDC4D18A7159500E9A75C /* InfoPlist.strings */,
+				992BDC5018A7159500E9A75C /* main.m */,
+				992BDC5218A7159500E9A75C /* app-instatravel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		992BDC6318A7159500E9A75C /* app-instatravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				992BDC6918A7159500E9A75C /* app_instatravelTests.m */,
+				992BDC6418A7159500E9A75C /* Supporting Files */,
+			);
+			path = "app-instatravelTests";
+			sourceTree = "<group>";
+		};
+		992BDC6418A7159500E9A75C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				992BDC6518A7159500E9A75C /* app-instatravelTests-Info.plist */,
+				992BDC6618A7159500E9A75C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		992BDC4018A7159400E9A75C /* app-instatravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992BDC6D18A7159500E9A75C /* Build configuration list for PBXNativeTarget "app-instatravel" */;
+			buildPhases = (
+				992BDC3D18A7159400E9A75C /* Sources */,
+				992BDC3E18A7159400E9A75C /* Frameworks */,
+				992BDC3F18A7159400E9A75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "app-instatravel";
+			productName = "app-instatravel";
+			productReference = 992BDC4118A7159500E9A75C /* app-instatravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		992BDC5B18A7159500E9A75C /* app-instatravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992BDC7018A7159500E9A75C /* Build configuration list for PBXNativeTarget "app-instatravelTests" */;
+			buildPhases = (
+				992BDC5818A7159500E9A75C /* Sources */,
+				992BDC5918A7159500E9A75C /* Frameworks */,
+				992BDC5A18A7159500E9A75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				992BDC6218A7159500E9A75C /* PBXTargetDependency */,
+			);
+			name = "app-instatravelTests";
+			productName = "app-instatravelTests";
+			productReference = 992BDC5C18A7159500E9A75C /* app-instatravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		992BDC3918A7159400E9A75C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Vikram Jiandani";
+				TargetAttributes = {
+					992BDC5B18A7159500E9A75C = {
+						TestTargetID = 992BDC4018A7159400E9A75C;
+					};
+				};
+			};
+			buildConfigurationList = 992BDC3C18A7159400E9A75C /* Build configuration list for PBXProject "app-instatravel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 992BDC3818A7159400E9A75C;
+			productRefGroup = 992BDC4218A7159500E9A75C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				992BDC4018A7159400E9A75C /* app-instatravel */,
+				992BDC5B18A7159500E9A75C /* app-instatravelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		992BDC3F18A7159400E9A75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992BDC4F18A7159500E9A75C /* InfoPlist.strings in Resources */,
+				992BDC5718A7159500E9A75C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992BDC5A18A7159500E9A75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992BDC6818A7159500E9A75C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		992BDC3D18A7159400E9A75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992BDC5518A7159500E9A75C /* AppDelegate.m in Sources */,
+				992BDC5118A7159500E9A75C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992BDC5818A7159500E9A75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992BDC6A18A7159500E9A75C /* app_instatravelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		992BDC6218A7159500E9A75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 992BDC4018A7159400E9A75C /* app-instatravel */;
+			targetProxy = 992BDC6118A7159500E9A75C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		992BDC4D18A7159500E9A75C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992BDC4E18A7159500E9A75C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		992BDC6618A7159500E9A75C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992BDC6718A7159500E9A75C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		992BDC6B18A7159500E9A75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		992BDC6C18A7159500E9A75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		992BDC6E18A7159500E9A75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "app-instatravel/app-instatravel-Prefix.pch";
+				INFOPLIST_FILE = "app-instatravel/app-instatravel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		992BDC6F18A7159500E9A75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "app-instatravel/app-instatravel-Prefix.pch";
+				INFOPLIST_FILE = "app-instatravel/app-instatravel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		992BDC7118A7159500E9A75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/app-instatravel.app/app-instatravel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "app-instatravel/app-instatravel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "app-instatravelTests/app-instatravelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		992BDC7218A7159500E9A75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/app-instatravel.app/app-instatravel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "app-instatravel/app-instatravel-Prefix.pch";
+				INFOPLIST_FILE = "app-instatravelTests/app-instatravelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		992BDC3C18A7159400E9A75C /* Build configuration list for PBXProject "app-instatravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992BDC6B18A7159500E9A75C /* Debug */,
+				992BDC6C18A7159500E9A75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992BDC6D18A7159500E9A75C /* Build configuration list for PBXNativeTarget "app-instatravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992BDC6E18A7159500E9A75C /* Debug */,
+				992BDC6F18A7159500E9A75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		992BDC7018A7159500E9A75C /* Build configuration list for PBXNativeTarget "app-instatravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992BDC7118A7159500E9A75C /* Debug */,
+				992BDC7218A7159500E9A75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 992BDC3918A7159400E9A75C /* Project object */;
+}
